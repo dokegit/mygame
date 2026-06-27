@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://1mmufr03wlrn"]
+
+[ext_resource type="Texture2D" uid="uid://bodkxc5lxa1ym" path="res://assets/Space Background.png" id="1_y0upk"]
+[ext_resource type="Texture2D" uid="uid://cn0qfc44p6fwl" path="res://assets/Mossy Assets/Mossy Tileset/Mossy - Decorations&Hazards.png" id="2_jougr"]
+
+[node name="SpaceBackground" type="Sprite2D" unique_id=868096004]
+z_index = -2
+scale = Vector2(21.839998, 21.839998)
+texture = ExtResource("1_y0upk")
+
+[node name="SpikeProp2" type="Sprite2D" parent="." unique_id=1953950820]
+position = Vector2(13.141027, 33.79121)
+rotation = -0.12738955
+scale = Vector2(0.045787547, 0.045787547)
+texture = ExtResource("2_jougr")
+region_enabled = true
+region_rect = Rect2(3195.1504, 1884.4962, 691.9238, 474.57922)
+
+[node name="RockProp" type="Sprite2D" parent="." unique_id=1862777585]
+position = Vector2(42.12455, 25.366302)
+rotation = 0.1038928
+scale = Vector2(0.045787547, 0.045787547)
+texture = ExtResource("2_jougr")
+region_enabled = true
+region_rect = Rect2(1566.0935, 359.43887, 1196.9309, 576.297)
+
+[node name="SpikeProp" type="Sprite2D" parent="." unique_id=1983625931]
+position = Vector2(60.302208, 34.844322)
+rotation = -0.120673254
+scale = Vector2(0.045787547, 0.045787547)
+texture = ExtResource("2_jougr")
+region_enabled = true
+region_rect = Rect2(3195.1504, 1884.4962, 691.9238, 474.57922)

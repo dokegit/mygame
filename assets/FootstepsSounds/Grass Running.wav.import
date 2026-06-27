@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://dpghlyqm4fvtt"
+path="res://.godot/imported/Grass Running.wav-7695d80843878f4144156c6a605720aa.sample"
+
+[deps]
+
+source_file="res://assets/FootstepsSounds/Grass Running.wav"
+dest_files=["res://.godot/imported/Grass Running.wav-7695d80843878f4144156c6a605720aa.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
